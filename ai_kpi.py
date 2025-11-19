@@ -8,6 +8,7 @@ API_KEYS = [
     "AIzaSyBZ_Mea6_FaJVcWTYhc4r1OAlGzjdQIkxw",
     "AIzaSyCyuyG-IxIyJYp4sw5BpJCPWUlUvG-M9lw",
     "AIzaSyA9rvL4I_VTJ6SPGZ19Ug-xbXfUxT5GZrU",
+    ""AIzaSyAina9sHSxecdtSerrVEnnDboM9Of3zFIU",
 ] # Using a subset for demonstration
 
 # --- AI Key Rotation ---
