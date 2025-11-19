@@ -5,12 +5,12 @@ import time
 
 # --- AI Configuration (Placeholder Keys) ---
 API_KEYS = [
-    "AIzaSyBZ_Mea6_FaJVcWTYhc4r1OAlGzjdQIkxw",
-    "AIzaSyCyuyG-IxIyJYp4sw5BpJCPWUlUvG-M9lw",
-    "AIzaSyA9rvL4I_VTJ6SPGZ19Ug-xbXfUxT5GZrU",
+    "AIzaSyDwVzZzMjrUX2LJAQfSIxdmF3bnjvyxwqE",
+    "AIzaSyA7WJBDrZm-bMdMMzG_IDrqiphExp4n-Ek",
     "AIzaSyAina9sHSxecdtSerrVEnnDboM9Of3zFIU",
-    "AIzaSyA7WJBDrZm-bMdMMzG_IDrqiphExp4n-Ek"
-] # Using a subset for demonstration
+    "AIzaSyBBxZBEY4AbBUNeZ6DbV6oX5hC1kAt2PCk",
+    "AIzaSyD4WPqh0BNOGmwy9TCinChk7fffWWl5nsU"
+]
 
 # --- AI Key Rotation ---
 def get_gemini_model():
