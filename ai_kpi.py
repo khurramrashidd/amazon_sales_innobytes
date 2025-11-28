@@ -4,13 +4,13 @@ import google.generativeai as genai
 import time
 
 # --- AI Configuration (Placeholder Keys) ---
-API_KEYS = [
-    "AIzaSyDwVzZzMjrUX2LJAQfSIxdmF3bnjvyxwqE",
-    "AIzaSyA7WJBDrZm-bMdMMzG_IDrqiphExp4n-Ek",
-    "AIzaSyAina9sHSxecdtSerrVEnnDboM9Of3zFIU",
-    "AIzaSyBBxZBEY4AbBUNeZ6DbV6oX5hC1kAt2PCk",
-    "AIzaSyD4WPqh0BNOGmwy9TCinChk7fffWWl5nsU"
-]
+import streamlit as st
+
+# Load Gemini keys securely from Streamlit Secrets
+try:
+    API_KEYS = st.secrets["GEMINI_KEYS"]
+except Exception:
+    API_KEYS = []
 
 # --- AI Key Rotation ---
 def get_gemini_model():
