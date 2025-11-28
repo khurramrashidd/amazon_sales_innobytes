@@ -7,7 +7,7 @@ import numpy as np
 @st.cache_data(show_spinner="Loading data from source...")
 def load_raw_data(data_file) -> pd.DataFrame:
     """Loads raw data from file uploader or default path."""
-    path = "data/Amazon Sale Report.csv" # Default path
+    path = "Amazon Sale Report.csv" # Default path
     
     if data_file:
         try:
