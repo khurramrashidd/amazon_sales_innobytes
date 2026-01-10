@@ -22,7 +22,7 @@ def get_gemini_model():
     try:
         api_key = API_KEYS[index]
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-2.5-flash') 
+        model = genai.GenerativeModel('gemini-3-flash-preview') 
         st.session_state.gemini_model = model
         return model
     except Exception as e:
