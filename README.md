@@ -1,7 +1,7 @@
 # 📊 Amazon Sales Dashboard with AI Insights
 
 An **interactive**, single-page Streamlit app to explore Amazon sales data with **AI-powered** recommendations.  
-🚀 **Live Demo**: [amazonsalesinnobytes.streamlit.app](https://amazonsalesinnobytes.streamlit.app/)
+🚀 **Live Demo**: [amazonsalesinnobytes.streamlit.app](https://amazonsalesinnobytes.streamlit.app/)      
 
 https://colab.research.google.com/drive/1T5ldDzusZpXcvgZZlt-yTCnRoSJSFxiw?usp=sharing
 
