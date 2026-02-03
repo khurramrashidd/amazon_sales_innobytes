@@ -18,11 +18,11 @@ def get_gemini_model():
     if st.session_state.gemini_model is not None:
         return st.session_state.gemini_model
 
-    index = st.session_state.api_key_index
+    index = st.session_state.api_key_index   
     try:
         api_key = API_KEYS[index]
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-3-flash-preview') 
+        model = genai.GenerativeModel('gemini-3-flash-preview') # Gemini flash model
         st.session_state.gemini_model = model
         return model
     except Exception as e:
