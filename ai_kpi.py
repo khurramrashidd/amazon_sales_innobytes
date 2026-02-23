@@ -3,7 +3,7 @@ import pandas as pd
 import google.generativeai as genai
 import time
 
-# --- AI Configuration (Placeholder Keys) ---
+# --- AI Configuration (Placeholder Keys)  ---
 import streamlit as st
 
 # Load Gemini keys securely from Streamlit Secrets
